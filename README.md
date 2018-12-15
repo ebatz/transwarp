@@ -1,7 +1,5 @@
 # transwarp 
 
-<a href="https://raw.githubusercontent.com/bloomen/transwarp/master_cpp11/src/transwarp.h" download="transwarp.h">Download as single header from here</a>
-
 [![Gitter](https://badges.gitter.im/bloomen/transwarp.svg)](https://gitter.im/bloomen/transwarp) [![Travis](https://travis-ci.org/bloomen/transwarp.svg?branch=master_cpp11)](https://travis-ci.org/bloomen/transwarp/branches) [![Appveyor](https://ci.appveyor.com/api/projects/status/wrtbk9l3b94eeb9t/branch/master_cpp11?svg=true)](https://ci.appveyor.com/project/bloomen/transwarp?branch=master_cpp11)
 
 transwarp is a header-only C++ library for task concurrency. It
