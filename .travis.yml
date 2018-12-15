@@ -3,8 +3,7 @@ language: cpp
 
 branches:
   only:
-    - master
-    - develop
+    - master_cpp11
 
 matrix:
   include:
@@ -29,7 +28,7 @@ matrix:
 
 script:
     - mkdir build && cd build
-    - cmake -DCMAKE_BUILD_TYPE=$CONFIGURATION ..
+    - cmake -DCMAKE_BUILD_TYPE=$CONFIGURATION -DCMAKE_CXX_COMPILER_ARG1=-std=c++11 ..
     - make -j4
     - ctest --verbose
 
