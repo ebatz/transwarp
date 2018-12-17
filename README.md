@@ -1,6 +1,6 @@
 # transwarp 
 
-[![Gitter](https://badges.gitter.im/bloomen/transwarp.svg)](https://gitter.im/bloomen/transwarp) [![Travis](https://travis-ci.org/bloomen/transwarp.svg?branch=master_cpp11)](https://travis-ci.org/bloomen/transwarp/branches) [![Appveyor](https://ci.appveyor.com/api/projects/status/wrtbk9l3b94eeb9t/branch/master_cpp11?svg=true)](https://ci.appveyor.com/project/bloomen/transwarp?branch=master_cpp11)
+[![Gitter](https://badges.gitter.im/bloomen/transwarp.svg)](https://gitter.im/bloomen/transwarp) [![Travis](https://travis-ci.org/bloomen/transwarp.svg?branch=transwarp1.X)](https://travis-ci.org/bloomen/transwarp/branches) [![Appveyor](https://ci.appveyor.com/api/projects/status/wrtbk9l3b94eeb9t/branch/transwarp1.X?svg=true)](https://ci.appveyor.com/project/bloomen/transwarp?branch=transwarp1.X)
 
 transwarp is a header-only C++ library for task concurrency. It
 allows you to easily create a graph of tasks where every task can be executed
@@ -65,7 +65,7 @@ int main() {
 
 The resulting graph of this example looks like this:
 
-![graph](https://raw.githubusercontent.com/bloomen/transwarp/master_cpp11/examples/basic_with_three_tasks.png)
+![graph](https://raw.githubusercontent.com/bloomen/transwarp/transwarp1.X/examples/basic_with_three_tasks.png)
 
 Every bubble represents a task and every arrow an edge between two tasks. 
 The first line within a bubble is the task name. The second line denotes the task
@@ -74,7 +74,7 @@ type followed by the task id and the task level in the graph.
 ## API doc
 
 This is a brief API doc of transwarp. 
-For more details check out the doxygen documentation and the <a href="https://github.com/bloomen/transwarp/tree/master_cpp11/examples">transwarp examples</a>.
+For more details check out the doxygen documentation and the <a href="https://github.com/bloomen/transwarp/tree/transwarp1.X/examples">transwarp examples</a>.
 
 In the following we will use `tw` as a namespace alias for `transwarp`.
 
@@ -361,7 +361,7 @@ of the graph pool. Once constructed, the next available graph can be queried lik
 std::shared_ptr<Graph> g = pool.next_idle_graph();
 ```
 `g` can now be used to schedule the current graph instance. Take a look at the 
-[wide_graph_with_pool](https://github.com/bloomen/transwarp/blob/master_cpp11/examples/wide_graph_with_pool.cpp) 
+[wide_graph_with_pool](https://github.com/bloomen/transwarp/blob/transwarp1.X/examples/wide_graph_with_pool.cpp) 
 example to get a better idea of how this is working.
 
 ## Feedback

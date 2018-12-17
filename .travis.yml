@@ -3,7 +3,7 @@ language: cpp
 
 branches:
   only:
-    - master_cpp11
+    - transwarp1.X
 
 matrix:
   include:
