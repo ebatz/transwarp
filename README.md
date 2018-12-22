@@ -8,6 +8,8 @@ asynchronously. transwarp is written in C++11 and only depends on the standard
 library. Just copy `src/transwarp.h` to your project and off you go!
 Tested with GCC, Clang, and Visual Studio.
 
+**Important:** Only use tagged releases of transwarp in production code!
+
 **Table of contents**
 
   * [Example](#example)
